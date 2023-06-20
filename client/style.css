@@ -1,70 +1,83 @@
 body {
-    background-color: #ff8080; /* Roter Hintergrund */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .chat-container {
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    margin-top: 20px;
-    color: #333;
-  }
-  
-  .login-section {
-    margin-bottom: 20px;
-  }
-  
-  .login-section input[type="text"],
-  .login-section button {
-    margin-top: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #00ff00; /* Grüne Feldfarbe */
-  }
-  
-  .login-section input[type="text"] {
-    width: 100%;
-  }
-  
-  .chat-section {
-    margin-top: 20px;
-  }
-  
-  .input-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .input-section input[type="text"] {
-    flex-grow: 1;
-    margin-right: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #00ff00; /* Grüne Feldfarbe */
-  }
-  
-  .input-section button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4caf50;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .input-section button:hover {
-    background-color: #45a049;
-  }
-  
+  background-color: #ff8080; /* Roter Hintergrund */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.login-section {
+  margin-bottom: 20px;
+}
+
+.login-section input[type="text"],
+.login-section button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00ff00; /* Grüne Feldfarbe */
+}
+
+.login-section input[type="text"] {
+  width: 100%;
+}
+
+.chat-section {
+  margin-top: 20px;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-section input[type="text"] {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00ff00; /* Grüne Feldfarbe */
+}
+
+.input-section button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-section button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e6e6e6; /* Graue Feldfarbe für Nachrichten */
+}
+
+.message .username {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
